@@ -1,0 +1,48 @@
+@value colors: "../colors.module.css";
+@value primaryMain, primaryLight, grey0, grey900 from colors;
+
+.button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid primaryLight;
+  padding: 0 24px;
+  height: 40px;
+  background-color: grey0;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: primaryMain;
+  cursor: pointer;
+}
+
+.button:disabled {
+  cursor: default;
+}
+
+.button svg {
+  display: none;
+}
+
+.button-withIcon {
+  padding-right: 20px;
+}
+
+.button-withIcon svg {
+  display: initial;
+  margin-left: 24px;
+}
+
+.button-contained {
+  border: 0;
+  background-color: primaryMain;
+  font-weight: 500;
+  color: grey0;
+}
+
+.button-outlined {
+  border: 1px solid grey0;
+  background-color: transparent;
+  font-weight: 500;
+  color: grey0;
+}

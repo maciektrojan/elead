@@ -1,0 +1,75 @@
+@value colors: "../colors.module.css";
+@value primaryMain, secondaryMain, grey0, grey900 from colors;
+
+body,
+a {
+  font-family: "Poppins", sans-serif;
+  color: grey900;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.variant-h1 {
+  font-size: 80px;
+  font-weight: 600;
+}
+
+.variant-h2 {
+  font-size: 64px;
+  font-weight: 600;
+}
+
+.variant-h3 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.variant-h4 {
+  font-size: 27px;
+  font-weight: 600;
+}
+
+.variant-h5 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.variant-body1 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* stały rozmiar */
+.variant-caption {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.weight-bold {
+  font-weight: 600; /* 700 */
+}
+
+.color-primaryMain {
+  color: primaryMain;
+}
+
+.color-secondaryMain {
+  color: secondaryMain;
+}
+
+.color-grey0 {
+  color: grey0;
+}
+
+.color-grey900 {
+  color: grey900;
+}
