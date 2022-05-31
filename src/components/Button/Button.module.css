@@ -1,5 +1,5 @@
 @value colors: "../colors.module.css";
-@value primaryMain, primaryLight, grey0, grey900 from colors;
+@value primaryMain, primaryLight, grey0 from colors;
 
 .button {
   display: flex;

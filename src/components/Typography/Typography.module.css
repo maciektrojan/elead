@@ -1,11 +1,8 @@
 @value colors: "../colors.module.css";
 @value primaryMain, secondaryMain, grey0, grey900 from colors;
 
-body,
-a {
-  font-family: "Poppins", sans-serif;
+body {
   color: grey900;
-  text-decoration: none;
 }
 
 h1,
@@ -18,9 +15,14 @@ p {
   padding: 0;
 }
 
+span {
+  display: inline-block;
+}
+
 .variant-h1 {
-  font-size: 80px;
+  font-size: 64px;
   font-weight: 600;
+  line-height: 80px;
 }
 
 .variant-h2 {
@@ -44,18 +46,18 @@ p {
 }
 
 .variant-body1 {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
 }
 
 /* stały rozmiar */
 .variant-caption {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
 }
 
 .weight-bold {
-  font-weight: 600; /* 700 */
+  font-weight: 600;
 }
 
 .color-primaryMain {
