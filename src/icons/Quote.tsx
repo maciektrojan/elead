@@ -16,7 +16,7 @@ const Quote = (props: SVGProps<SVGSVGElement>) => (
     <path
       d="M59.9998 170H89.9998L110 130V70.0004H49.9998V130H79.9998L59.9998 170ZM140 170H170L190 130V70.0004H130V130H160L140 170Z"
       stroke={color}
-      stroke-width="4"
+      strokeWidth="4"
       mask="url(#quote-1)"
     />
   </svg>
