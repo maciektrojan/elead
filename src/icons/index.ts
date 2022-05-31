@@ -1,0 +1,11 @@
+export { default as Anchor } from "./sailing/Anchor";
+export { default as Captain } from "./sailing/Captain";
+export { default as Compass } from "./sailing/Compass";
+export { default as Knot } from "./sailing/Knot";
+export { default as Wheel } from "./sailing/Wheel";
+export { default as Facebook } from "./socialMedia/Facebook";
+export { default as LinkedIn } from "./socialMedia/LinkedIn";
+export { default as Twitter } from "./socialMedia/Twitter";
+export { default as Arrow } from "./Arrow";
+export { default as Logo } from "./Logo";
+export { default as Quote } from "./Quote";

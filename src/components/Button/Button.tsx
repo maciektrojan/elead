@@ -1,6 +1,6 @@
 import React, { ButtonHTMLAttributes } from "react";
 import clsx from "clsx";
-import { ReactComponent as Arrow } from "./Arrow.svg";
+import { Arrow } from "../../icons";
 import styles from "./Button.module.css";
 
 type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
