@@ -3,15 +3,16 @@
 
 .startSection {
   position: relative;
+  z-index: 0;
   height: 100vh;
   min-height: 720px; /* roboczo */
   background-color: primaryMain;
-  overflow-x: hidden;
 }
 
 .startSection::before {
   content: "";
   position: absolute;
+  z-index: -1;
   top: -10%; /* roboczo */
   left: 60%;
   transform: translateX(-50%);
@@ -95,7 +96,7 @@
   }
 
   .container > div:nth-child(2) h1 svg {
-    right: -40px;
+    right: calc(-50px / 1.2);
   }
 
   .container > div:nth-child(2) p {

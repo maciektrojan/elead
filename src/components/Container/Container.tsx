@@ -11,7 +11,5 @@ export const Container: React.FC<ContainerProps> = ({
   className,
   children,
 }) => {
-  const rootClassName = clsx(styles.container, className);
-
-  return <div className={rootClassName}>{children}</div>;
+  return <div className={clsx(styles.container, className)}>{children}</div>;
 };

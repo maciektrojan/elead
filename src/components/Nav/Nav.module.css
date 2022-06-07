@@ -1,0 +1,155 @@
+@value colors: "../colors.module.css";
+@value primaryMain, grey0 from colors;
+
+.nav {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.nav-secondary {
+  padding: 24px 0;
+}
+
+.nav svg {
+  flex-shrink: 0;
+}
+
+.childrenElement {
+  display: flex;
+  align-items: center;
+}
+
+.nav a {
+  margin-left: 32px;
+}
+
+.nav p {
+  font-weight: 500;
+  color: grey0;
+}
+
+.nav-secondary p {
+  color: primaryMain;
+}
+
+.hamburger {
+  display: none;
+  border: 0;
+  padding: 0 10px;
+  width: 48px;
+  height: 48px;
+  background-color: rgba(255, 255, 255, 0.05);
+  transform: rotate(180deg);
+  cursor: pointer;
+}
+
+.nav-secondary .hamburger {
+  background-color: primaryMain;
+}
+
+.hamburger div {
+  position: relative;
+  width: 28px;
+  height: 2px;
+  background-color: grey0;
+  transition: background-color 0.1s;
+}
+
+.hamburger div::before {
+  content: "";
+  position: absolute;
+  top: -8px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: grey0;
+  transition: transform 0.3s;
+}
+
+.hamburger div::after {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: grey0;
+  transition: transform 0.3s;
+}
+
+.open .hamburger div {
+  background-color: transparent;
+}
+
+.open .hamburger div::before {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.open .hamburger div::after {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+@media (max-width: 768px) {
+  .nav {
+    padding: 36px 0;
+  }
+
+  .nav-secondary {
+    padding: 20px 0;
+  }
+
+  .parentElement {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    overflow: hidden;
+    visibility: hidden;
+    transition: visibility 0s 0.4s;
+  }
+
+  .open .parentElement {
+    visibility: visible;
+    transition: visibility 0s;
+  }
+
+  .childrenElement {
+    flex-direction: column;
+    align-items: stretch;
+    background-color: rgba(255, 255, 255, 0.05);
+    transform: translateY(-100%);
+    transition: transform 0.4s;
+  }
+
+  .nav-secondary .childrenElement {
+    background-color: primaryMain;
+  }
+
+  .open .childrenElement {
+    transform: translateY(0);
+  }
+
+  .nav a {
+    margin-left: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    padding: 16px 0;
+  }
+
+  .nav a:last-child {
+    border-bottom: 0;
+  }
+
+  .nav p {
+    text-align: center;
+  }
+
+  .nav-secondary p {
+    color: grey0;
+  }
+
+  .hamburger {
+    display: initial;
+  }
+}

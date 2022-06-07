@@ -1,5 +1,6 @@
 import React from "react";
 import { Container } from "../../components/Container";
+import { Nav } from "../../components/Nav";
 import { Typography } from "../../components/Typography";
 import { Facebook, LinkedIn, Twitter, Quote } from "../../icons";
 import styles from "./StartSection.module.css";
@@ -8,10 +9,10 @@ export function StartSection(): React.ReactElement {
   return (
     <section className={styles.startSection}>
       <Container className={styles.container}>
-        <div>{/* nav */}</div>
+        <Nav buttonVariant="outlined" logoColor="#fff" />
         <div>
           <Typography variant="h1" color="grey0">
-            <Quote />
+            <Quote color="#fff" />
             <span>Education</span>
             <br />
             is the mother
@@ -23,13 +24,13 @@ export function StartSection(): React.ReactElement {
           </Typography>
           <div>
             <div>
-              <LinkedIn />
+              <LinkedIn color="#fff" />
             </div>
             <div>
-              <Facebook />
+              <Facebook color="#fff" />
             </div>
             <div>
-              <Twitter />
+              <Twitter color="#fff" />
             </div>
           </div>
         </div>

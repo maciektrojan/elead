@@ -3,7 +3,7 @@
 
 .button {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   border: 1px solid primaryLight;
   padding: 0 24px;
@@ -25,6 +25,7 @@
 }
 
 .button-withIcon {
+  justify-content: space-between;
   padding-right: 20px;
 }
 
@@ -34,14 +35,14 @@
 }
 
 .button-contained {
-  border: 0;
+  border-color: primaryMain;
   background-color: primaryMain;
   font-weight: 500;
   color: grey0;
 }
 
 .button-outlined {
-  border: 1px solid grey0;
+  border-color: grey0;
   background-color: transparent;
   font-weight: 500;
   color: grey0;

@@ -23,7 +23,7 @@ export const Button: React.FC<ButtonProps> = ({
   return (
     <button {...rest} className={rootClassName} disabled={disabled}>
       {children}
-      <Arrow />
+      <Arrow color="#05c" />
     </button>
   );
 };
