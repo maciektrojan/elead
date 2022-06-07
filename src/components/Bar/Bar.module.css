@@ -1,11 +1,12 @@
 @value colors: "../colors.module.css";
-@value primaryLight, grey0 from colors;
+@value primaryLight, secondaryMain, grey0 from colors;
 
 .bar {
   position: fixed;
   top: 0;
   border-bottom: 1px solid primaryLight;
   width: 100%;
+  min-width: 425px;
   background-color: grey0;
   transform: translateY(-100%);
   transition: transform 0.2s;
@@ -13,4 +14,12 @@
 
 .visible {
   transform: translateY(0);
+}
+
+.bar > div:nth-child(2) {
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background-color: secondaryMain;
+  transform-origin: left;
 }

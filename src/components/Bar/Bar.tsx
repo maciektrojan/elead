@@ -12,6 +12,8 @@ type BarProps = {
 export const Bar: React.FC<BarProps> = ({ children }) => {
   const { windowHeight } = useWindowDimensions();
   const scroll = useScroll();
+  const documentHeight = document.body.scrollHeight;
+  const scrollIndicator = scroll / (documentHeight - windowHeight);
 
   const rootClassName = clsx(
     styles.bar,
@@ -22,6 +24,7 @@ export const Bar: React.FC<BarProps> = ({ children }) => {
   return (
     <div className={rootClassName}>
       <Container>{children}</Container>
+      <div style={{ transform: `scaleX(${scrollIndicator})` }} />
     </div>
   );
 };

@@ -10,7 +10,7 @@ function App(): React.ReactElement {
       <Bar>
         <Nav variant="secondary" buttonVariant="contained" logoColor="#05c" />
       </Bar>
-      <div style={{ height: "calc(100vh + 1px)" }}></div>
+      <div style={{ height: "calc(200vh + 1px)" }} />
     </div>
   );
 }
