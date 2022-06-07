@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/elead/static/css/main.811ec9fa.css",
-    "main.js": "/elead/static/js/main.4efb4c63.js",
+    "main.css": "/elead/static/css/main.2fde8bf0.css",
+    "main.js": "/elead/static/js/main.d37a383d.js",
     "static/media/birds-2160w.png": "/elead/static/media/birds-2160w.90d1c2ffbe95635282e4.png",
     "index.html": "/elead/index.html",
-    "main.811ec9fa.css.map": "/elead/static/css/main.811ec9fa.css.map",
-    "main.4efb4c63.js.map": "/elead/static/js/main.4efb4c63.js.map"
+    "main.2fde8bf0.css.map": "/elead/static/css/main.2fde8bf0.css.map",
+    "main.d37a383d.js.map": "/elead/static/js/main.d37a383d.js.map"
   },
   "entrypoints": [
-    "static/css/main.811ec9fa.css",
-    "static/js/main.4efb4c63.js"
+    "static/css/main.2fde8bf0.css",
+    "static/js/main.d37a383d.js"
   ]
 }
