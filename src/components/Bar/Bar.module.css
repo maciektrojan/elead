@@ -23,3 +23,7 @@
   background-color: secondaryMain;
   transform-origin: left;
 }
+
+.visible > div:nth-child(2) {
+  height: 3px;
+}
