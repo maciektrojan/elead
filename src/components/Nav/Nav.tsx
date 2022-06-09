@@ -1,11 +1,11 @@
+import clsx from "clsx";
 import React, { useEffect, useState } from "react";
 import { Link } from "react-scroll";
-import clsx from "clsx";
-import { Button } from "../Button";
-import { Typography } from "../Typography";
 import { useScroll } from "../../hooks/useScroll";
 import { useWindowDimensions } from "../../hooks/useWindowDimensions";
 import { Logo } from "../../icons";
+import { Button } from "../Button";
+import { Typography } from "../Typography";
 import styles from "./Nav.module.css";
 
 type NavProps = {

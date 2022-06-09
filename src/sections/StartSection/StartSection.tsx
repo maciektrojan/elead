@@ -2,7 +2,7 @@ import React from "react";
 import { Container } from "../../components/Container";
 import { Nav } from "../../components/Nav";
 import { Typography } from "../../components/Typography";
-import { Facebook, LinkedIn, Twitter, Quote } from "../../icons";
+import { Facebook, LinkedIn, Quote, Twitter } from "../../icons";
 import styles from "./StartSection.module.css";
 
 export function StartSection(): React.ReactElement {

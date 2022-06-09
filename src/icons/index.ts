@@ -1,3 +1,6 @@
+export { Arrow } from "./Arrow";
+export { Logo } from "./Logo";
+export { Quote } from "./Quote";
 export { Anchor } from "./sailing/Anchor";
 export { Captain } from "./sailing/Captain";
 export { Compass } from "./sailing/Compass";
@@ -6,6 +9,3 @@ export { Wheel } from "./sailing/Wheel";
 export { Facebook } from "./socialMedia/Facebook";
 export { LinkedIn } from "./socialMedia/LinkedIn";
 export { Twitter } from "./socialMedia/Twitter";
-export { Arrow } from "./Arrow";
-export { Logo } from "./Logo";
-export { Quote } from "./Quote";

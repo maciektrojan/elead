@@ -1,8 +1,8 @@
-import React from "react";
 import clsx from "clsx";
-import { Container } from "../Container";
+import React from "react";
 import { useScroll } from "../../hooks/useScroll";
 import { useWindowDimensions } from "../../hooks/useWindowDimensions";
+import { Container } from "../Container";
 import styles from "./Bar.module.css";
 
 type BarProps = {
