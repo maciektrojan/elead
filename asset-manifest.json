@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/elead/static/css/main.05e5b486.css",
-    "main.js": "/elead/static/js/main.934ba70a.js",
+    "main.css": "/elead/static/css/main.1a9325fd.css",
+    "main.js": "/elead/static/js/main.9296f949.js",
+    "static/media/map-2160w.png": "/elead/static/media/map-2160w.53dc5bc751441451d157.png",
     "static/media/birds-2160w.png": "/elead/static/media/birds-2160w.90d1c2ffbe95635282e4.png",
     "index.html": "/elead/index.html",
-    "main.05e5b486.css.map": "/elead/static/css/main.05e5b486.css.map",
-    "main.934ba70a.js.map": "/elead/static/js/main.934ba70a.js.map"
+    "main.1a9325fd.css.map": "/elead/static/css/main.1a9325fd.css.map",
+    "main.9296f949.js.map": "/elead/static/js/main.9296f949.js.map"
   },
   "entrypoints": [
-    "static/css/main.05e5b486.css",
-    "static/js/main.934ba70a.js"
+    "static/css/main.1a9325fd.css",
+    "static/js/main.9296f949.js"
   ]
 }
