@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 @value colors: "../colors.module.css";
-@value primaryMain, secondaryMain, grey0, grey900 from colors;
+@value primaryMain, secondaryMain, grey0, grey800, grey900 from colors;
 
 body {
   font-family: "Poppins", sans-serif;
@@ -34,7 +34,7 @@ p {
 }
 
 .variant-h2 {
-  font-size: 64px;
+  font-size: 48px;
   font-weight: 600;
 }
 
@@ -54,7 +54,7 @@ p {
 }
 
 .variant-body1 {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 400;
 }
 
@@ -80,6 +80,13 @@ p {
   color: grey0;
 }
 
-.color-grey900 {
-  color: grey900;
+.color-grey800 {
+  color: grey800;
+}
+
+@media (max-width: 540px) {
+  .variant-h1 {
+    font-size: 48px;
+    line-height: 64px;
+  }
 }

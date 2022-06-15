@@ -6,7 +6,7 @@ type TypographyProps = {
   className?: string;
   variant: "h1" | "h2" | "h3" | "h4" | "h5" | "body1" | "caption";
   weight?: "bold";
-  color?: "primaryMain" | "secondaryMain" | "grey0" | "grey900";
+  color?: "primaryMain" | "secondaryMain" | "grey0" | "grey800";
   children: React.ReactNode;
 };
 

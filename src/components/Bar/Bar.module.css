@@ -3,6 +3,7 @@
 
 .bar {
   position: fixed;
+  z-index: 9;
   top: 0;
   border-bottom: 1px solid primaryLight;
   width: 100%;

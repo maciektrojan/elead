@@ -20,7 +20,7 @@ export function StartSection(): React.ReactElement {
             of <span>leadership</span>
           </Typography>
           <Typography variant="caption" weight="bold" color="grey0">
-            Lorem <span>ipsum dolor sit amet</span>
+            Lorem <span>ipsum dolor sit amet</span>
           </Typography>
           <div>
             <div>

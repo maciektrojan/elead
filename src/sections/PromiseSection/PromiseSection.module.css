@@ -1,0 +1,82 @@
+@value colors: "../../components/colors.module.css";
+@value primaryLight, grey0, grey50 from colors;
+
+.promiseSection {
+  position: relative;
+  background-color: grey50;
+}
+
+.promiseSection::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  border-bottom: 1px solid primaryLight;
+  width: 100%;
+}
+
+.promiseSection > div:nth-child(1) {
+  position: absolute;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+  background: url(../../images/map-2160w.png) no-repeat center;
+  background-size: cover;
+}
+
+.container > div {
+  box-sizing: border-box;
+  padding: 80px 120px 96px 0;
+  width: 50%;
+}
+
+.container > div > p {
+  margin: 16px 0 32px 0;
+}
+
+.promise {
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+  border: 1px solid primaryLight;
+  padding: 16px 24px;
+  background-color: grey0;
+}
+
+.promise:last-child {
+  margin-bottom: 0;
+}
+
+.promise svg {
+  transform: scale(0.8);
+  transform-origin: 0 0;
+  padding: 5px;
+}
+
+.icon {
+  margin-right: 24px;
+  border-radius: 40px;
+  width: 72px;
+  height: 72px;
+  background-color: primaryLight;
+}
+
+.promise p {
+  margin-top: 4px;
+}
+
+@media (max-width: 1440px) {
+  .container > div {
+    padding-right: 80px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .promiseSection > div:nth-child(1) {
+    display: none;
+  }
+
+  .container > div {
+    padding-right: 0;
+    width: 100%;
+  }
+}

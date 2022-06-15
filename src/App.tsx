@@ -1,6 +1,7 @@
 import React from "react";
 import { Bar } from "./components/Bar";
 import { Nav } from "./components/Nav";
+import { PromiseSection } from "./sections/PromiseSection";
 import { StartSection } from "./sections/StartSection";
 
 function App(): React.ReactElement {
@@ -10,7 +11,7 @@ function App(): React.ReactElement {
       <Bar>
         <Nav variant="secondary" buttonVariant="contained" logoColor="#05c" />
       </Bar>
-      <div style={{ height: "calc(200vh + 1px)" }} />
+      <PromiseSection />
     </div>
   );
 }

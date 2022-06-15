@@ -113,3 +113,9 @@
     display: none;
   }
 }
+
+@media (max-width: 540px) {
+  .container > div:nth-child(2) h1 svg {
+    top: calc(-96px - 8px);
+  }
+}
